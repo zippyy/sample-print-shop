@@ -4,8 +4,8 @@
     "title": "Cadastrar ordem de serviço",
     "slug": "service-order-status",
     "description": "Veja os dados da ordem de serviço e informe o status da produção nesta tela",
-    "indexed": true,
-    "favorite": true
+    "indexed": false,
+    "favorite": false
   },
   "permissions": [
     {"attribute": "role", "condition": "equals", "value": "printer"}
