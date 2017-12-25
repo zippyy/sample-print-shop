@@ -21,7 +21,7 @@
       {"attribute": "number_of_prints", "type": "text", "label": "Quantidade de impressões", "readonly": true},
       {"attribute": "deadline_date", "type": "text", "label": "Data da Entrega", "readonly": true},
       {"attribute": "observations", "type": "text", "label": "Observações", "readonly": true},
-      {"attribute": "status", "type": "text", "label": "Status do serviço"},
+      {"attribute": "status", "type": "text", "label": "Status do serviço"}
     ]
   },
   "actions": [
