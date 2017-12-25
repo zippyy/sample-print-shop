@@ -2,7 +2,7 @@
   "metadata": {
     "view": "notification",
     "title": "Notificar ordem de serviço",
-    "slug": "notify_printer",
+    "slug": "notify-printer",
     "indexed": false,
     "favorite": false
   },
@@ -13,7 +13,7 @@
     "default-message": "Cadastrou uma nova ordem de serviço para você.",
     "defaultNotifyAt": "now",
     "actions": [
-      {"slug": "service_order_status", "label": "Ver ordem de serviço", "color": "info", "query": false}
+      {"slug": "service-order-status", "label": "Ver ordem de serviço", "color": "info", "query": false}
     ]
   },
   "actions": [

@@ -2,7 +2,7 @@
   "metadata": {
     "view": "notification",
     "title": "Notificar alteração de status",
-    "slug": "notify_salesperson",
+    "slug": "notify-salesperson",
     "indexed": false,
     "favorite": false
   },
@@ -13,7 +13,7 @@
     "default-message": "Atualizou o status de uma ordem de serviço",
     "defaultNotifyAt": "now",
     "actions": [
-      {"slug": "service_order_form", "label": "Ver ordem de serviço", "color": "info", "query": false}
+      {"slug": "service-order-form", "label": "Ver ordem de serviço", "color": "info", "query": false}
     ]
   },
   "actions": [

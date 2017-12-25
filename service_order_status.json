@@ -2,7 +2,7 @@
   "metadata": {
     "view": "form",
     "title": "Cadastrar ordem de serviço",
-    "slug": "service_order_status",
+    "slug": "service-order-status",
     "indexed": true,
     "favorite": true
   },
@@ -11,21 +11,21 @@
   ],
   "content": {
     "inputs": [
-      {"attribute": "company_name", "type": "text", "label": "Nome da Empresa", "readonly": true},
+      {"attribute": "company-name", "type": "text", "label": "Nome da Empresa", "readonly": true},
       {"attribute": "product", "type": "text", "label": "Produto", "readonly": true},
-      {"attribute": "number_of_copies", "type": "text", "label": "Número de vias", "readonly": true},
-      {"attribute": "color_of_copies", "type": "text", "label": "Cor das vias", "readonly": true},
-      {"attribute": "paper_format", "type": "text", "label": "Formato do papel", "readonly": true},
-      {"attribute": "paper_type", "type": "text", "label": "Tipo do papel", "readonly": true},
-      {"attribute": "paper_weight", "type": "text", "label": "Gramatura do papel", "readonly": true},
-      {"attribute": "number_of_prints", "type": "text", "label": "Quantidade de impressões", "readonly": true},
-      {"attribute": "deadline_date", "type": "text", "label": "Data da Entrega", "readonly": true},
+      {"attribute": "number-of-copies", "type": "text", "label": "Número de vias", "readonly": true},
+      {"attribute": "color-of-copies", "type": "text", "label": "Cor das vias", "readonly": true},
+      {"attribute": "paper-format", "type": "text", "label": "Formato do papel", "readonly": true},
+      {"attribute": "paper-type", "type": "text", "label": "Tipo do papel", "readonly": true},
+      {"attribute": "paper-weight", "type": "text", "label": "Gramatura do papel", "readonly": true},
+      {"attribute": "number-of-prints", "type": "text", "label": "Quantidade de impressões", "readonly": true},
+      {"attribute": "deadline-date", "type": "text", "label": "Data da Entrega", "readonly": true},
       {"attribute": "observations", "type": "text", "label": "Observações", "readonly": true},
       {"attribute": "status", "type": "text", "label": "Status do serviço"}
     ]
   },
   "actions": [
     {"label": "Salvar e finalizar", "color": "success", "query": true},
-    {"label": "Salvar e notificar vendedor", "slug": "notify_salesperson", "color": "success", "query": false}
+    {"label": "Salvar e notificar vendedor", "slug": "notify-salesperson", "color": "success", "query": false}
   ]
 }

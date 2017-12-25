@@ -2,20 +2,20 @@
   "metadata": {
     "view": "list",
     "title": "Listar ordens de serviço",
-    "slug": "list_service_orders",
+    "slug": "list-service-orders",
     "indexed": true,
     "favorite": true
   },
   "query": [
-    {"attribute": "klass", "condition": "equals", "value": "service_order"}
+    {"attribute": "klass", "condition": "equals", "value": "service-order"}
   ],
   "content": {
-    "header": "company_name",
+    "header": "company-name",
     "description": "product"
   },
   "actions": [
-    {"slug": "service_order_form", "label": "Ver ordem de serviço", "color": "info", "query": false},
-    {"slug": "service_order_status", "label": "Ver ordem de serviço", "color": "info", "query": false},
-    {"slug": "delete_service_order", "label": "Excluir ordem de serviço", "color": "danger", "query": false}
+    {"slug": "service-order-form", "label": "Ver ordem de serviço", "color": "info", "query": false},
+    {"slug": "service-order-status", "label": "Ver ordem de serviço", "color": "info", "query": false},
+    {"slug": "delete-service-order", "label": "Excluir ordem de serviço", "color": "danger", "query": false}
   ]
 }
