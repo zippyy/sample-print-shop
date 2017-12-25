@@ -3,6 +3,7 @@
     "view": "list",
     "title": "Listar ordens de serviço",
     "slug": "list-service-orders",
+    "description": "Lista de todas as ordens de serviço que ainda não estão prontas para a entrega.",
     "indexed": true,
     "favorite": true
   },

@@ -26,7 +26,7 @@
     ]
   },
   "actions": [
-    {"label": "Salvar e finalizar", "color": "success", "query": true},
-    {"label": "Salvar e notificar impressor", "slug": "notify-printer", "color": "success", "query": false}
+    {"label": "Salvar e notificar impressor", "slug": "notify-printer", "color": "success", "query": false},
+    {"label": "Salvar e finalizar", "color": "success", "query": true}
   ]
 }
