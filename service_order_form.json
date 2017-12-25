@@ -1,0 +1,32 @@
+{
+  "metadata": {
+    "view": "form",
+    "title": "Cadastrar ordem de serviço",
+    "slug": "service_order_form",
+    "indexed": true,
+    "favorite": true
+  },
+  "permissions": [
+    {"attribute": "role", "condition": "equals", "value": "salesperson"}
+  ],
+  "content": {
+    "inputs": [
+      {"attribute": "klass", "type": "hidden", "value": "service_order"},
+      {"attribute": "company_name", "type": "text", "label": "Nome da Empresa", "required": true},
+      {"attribute": "product", "type": "text", "label": "Produto", "required": true},
+      {"attribute": "number_of_copies", "type": "text", "label": "Número de vias"},
+      {"attribute": "color_of_copies", "type": "text", "label": "Cor das vias"},
+      {"attribute": "paper_format", "type": "text", "label": "Formato do papel"},
+      {"attribute": "paper_type", "type": "text", "label": "Tipo do papel"},
+      {"attribute": "paper_weight", "type": "text", "label": "Gramatura do papel"},
+      {"attribute": "number_of_prints", "type": "text", "label": "Quantidade de impressões"},
+      {"attribute": "deadline_date", "type": "text", "label": "Data da Entrega"},
+      {"attribute": "observations", "type": "text", "label": "Observações"},
+      {"attribute": "status", "type": "text", "label": "Status do serviço", "value": "Aguardando", "readonly": true},
+    ]
+  },
+  "actions": [
+    {"label": "Salvar e finalizar", "color": "success", "query": true},
+    {"label": "Salvar e notificar impressor", "slug": "notify_printer", "color": "success", "query": false},
+  ]
+}

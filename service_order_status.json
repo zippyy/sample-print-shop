@@ -1,0 +1,31 @@
+{
+  "metadata": {
+    "view": "form",
+    "title": "Cadastrar ordem de serviço",
+    "slug": "service_order_form",
+    "indexed": true,
+    "favorite": true
+  },
+  "permissions": [
+    {"attribute": "role", "condition": "equals", "value": "printer"}
+  ],
+  "content": {
+    "inputs": [
+      {"attribute": "company_name", "type": "text", "label": "Nome da Empresa", "readonly": true},
+      {"attribute": "product", "type": "text", "label": "Produto", "readonly": true},
+      {"attribute": "number_of_copies", "type": "text", "label": "Número de vias", "readonly": true},
+      {"attribute": "color_of_copies", "type": "text", "label": "Cor das vias", "readonly": true},
+      {"attribute": "paper_format", "type": "text", "label": "Formato do papel", "readonly": true},
+      {"attribute": "paper_type", "type": "text", "label": "Tipo do papel", "readonly": true},
+      {"attribute": "paper_weight", "type": "text", "label": "Gramatura do papel", "readonly": true},
+      {"attribute": "number_of_prints", "type": "text", "label": "Quantidade de impressões", "readonly": true},
+      {"attribute": "deadline_date", "type": "text", "label": "Data da Entrega", "readonly": true},
+      {"attribute": "observations", "type": "text", "label": "Observações", "readonly": true},
+      {"attribute": "status", "type": "text", "label": "Status do serviço"},
+    ]
+  },
+  "actions": [
+    {"label": "Salvar e finalizar", "color": "success", "query": true},
+    {"label": "Salvar e notificar vendedor", "slug": "notify_salesperson", "color": "success", "query": false},
+  ]
+}

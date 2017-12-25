@@ -1,0 +1,22 @@
+{
+  "metadata": {
+    "view": "notification",
+    "title": "Notificar alteração de status",
+    "slug": "notify_printer",
+    "indexed": false,
+    "favorite": false
+  },
+  "permissions": [
+    {"attribute": "role", "condition": "equals", "value": "printer"}
+  ],
+  "content": {
+    "default-message": "Atualizou o status de uma ordem de serviço",
+    "defaultNotifyAt": "now",
+    "actions": [
+      {"slug": "service_order_form", "label": "Ver ordem de serviço", "color": "info", "query": false}
+    ]
+  },
+  "actions": [
+    {"label": "Notificar e Finalizar", "color": "success", "query": true}
+  ]
+}

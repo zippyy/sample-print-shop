@@ -1,0 +1,22 @@
+{
+  "metadata": {
+    "view": "list",
+    "title": "Ver todos os produtos",
+    "slug": "list_products",
+    "indexed": true,
+    "favorite": true
+  },
+  "query": [
+    {"attribute": "klass", "condition": "equals", "value": "service_order"}
+  ],
+  "content": {
+    "header": "company_name",
+    "description": "product"
+  },
+  "actions": [
+    {"slug": "create_product", "label": "Editar produtos selecionados", "icon": "pencil", "color": "info", "query": false},
+    {"slug": "delete_product", "label": "Excluir produtos selecionados", "icon": "trash-o", "color": "danger", "query": false},
+    {"slug": "manage_user", "label": "Gerenciar Usuário", "icon": "user", "color": "info", "query": false},
+    {"label": "Voltar para a dashboard", "icon": "home", "color": "info", "query": true}
+  ]
+}
