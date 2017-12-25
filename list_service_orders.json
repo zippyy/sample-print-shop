@@ -14,9 +14,8 @@
     "description": "product"
   },
   "actions": [
-    {"slug": "create_product", "label": "Editar produtos selecionados", "icon": "pencil", "color": "info", "query": false},
-    {"slug": "delete_product", "label": "Excluir produtos selecionados", "icon": "trash-o", "color": "danger", "query": false},
-    {"slug": "manage_user", "label": "Gerenciar Usuário", "icon": "user", "color": "info", "query": false},
-    {"label": "Voltar para a dashboard", "icon": "home", "color": "info", "query": true}
+    {"slug": "service_order_form", "label": "Ver ordem de serviço", "color": "info", "query": false},
+    {"slug": "service_order_status", "label": "Ver ordem de serviço", "color": "info", "query": false},
+    {"slug": "delete_service_order", "label": "Excluir ordem de serviço", "color": "danger", "query": false}
   ]
 }

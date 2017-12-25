@@ -1,0 +1,17 @@
+{
+  "metadata": {
+    "view": "delete",
+    "title": "Excluir ordem de serviço",
+    "slug": "delete_service_order"
+  },
+  "permissions": [
+    {"attribute": "role", "condition": "equals", "value": "salesperson"}
+  ],
+  "content": {
+    "confirmation": "product"
+  },
+  "actions": [
+    {"label": "Excluir e finalizar", "color": "danger", "query": true},
+    {"slug": "list_service_orders", "label": "Excluir e ver a lista atualizada", "color": "danger", "query": true}
+  ]
+}
