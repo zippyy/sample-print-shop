@@ -26,6 +26,6 @@
   },
   "actions": [
     {"label": "Salvar e finalizar", "color": "success", "query": true},
-    {"label": "Salvar e notificar vendedor", "slug": "notify_salesperson", "color": "success", "query": false},
+    {"label": "Salvar e notificar vendedor", "slug": "notify_salesperson", "color": "success", "query": false}
   ]
 }
