@@ -2,7 +2,7 @@
   "metadata": {
     "view": "form",
     "title": "Cadastrar ordem de serviço",
-    "slug": "service_order_form",
+    "slug": "service_order_status",
     "indexed": true,
     "favorite": true
   },

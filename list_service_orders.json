@@ -1,8 +1,8 @@
 {
   "metadata": {
     "view": "list",
-    "title": "Ver todos os produtos",
-    "slug": "list_products",
+    "title": "Listar ordens de serviço",
+    "slug": "list_service_orders",
     "indexed": true,
     "favorite": true
   },
